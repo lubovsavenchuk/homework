@@ -4,9 +4,10 @@
 //7 -> нет
 
 Console.WriteLine("Type a number: ");
-string num1 = Console.ReadLine();
-int x = Int32.Parse(num1);
-if (x % 2)
+string x = Console.ReadLine();
+int z = Int32.Parse(x);
+
+if (z % 2 == 0)
 {
    Console.WriteLine("Even number");
 }
